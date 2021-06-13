@@ -1,0 +1,29 @@
+
+
+
+.layout-container {
+  min-height: 100vh;
+  border-style: solid;
+
+  .layout-desktop-default{
+    .title {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      span {
+        font-size: xx-large;
+        font-weight: bold;
+      }
+    }
+
+    .layout-select {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .layout-overview {
+      margin: 20px 0;
+      text-align: center;
+    }
+  }
+}

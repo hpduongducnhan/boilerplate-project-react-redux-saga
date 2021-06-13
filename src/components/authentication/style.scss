@@ -1,0 +1,43 @@
+.center-box {
+  width: 100%;
+  max-width: 500px;
+  margin: 20vh auto;
+}
+
+.title-box {
+  /* title for login and register page */
+  margin: 20px 0px;
+  text-align: center;
+  span {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+}
+
+.auth-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+
+  .auth-login {
+    @extend .center-box;
+    .title {
+      @extend .title-box;
+    }
+  }
+
+  .auth-register {
+    @extend .center-box;
+    .title {
+      @extend .title-box;
+    }
+  }
+
+  .auth-logout {
+    @extend .center-box;
+    span {
+      font-weight: bold;
+      font-size: xx-large;
+    }
+  }
+}
